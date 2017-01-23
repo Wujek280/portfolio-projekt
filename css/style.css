@@ -1,6 +1,6 @@
 * {	
-	font-family: Lato;
-	color: #291f1a;
+    font-family: Lato;
+    color: #291f1a;
     text-decoration: none;    
 }
 
@@ -15,7 +15,7 @@ body {
 
 nav {
     min-height: 40px;
-    width:1360;
+    width:1360px;
     background-color: #f9fcfe;
     position:fixed;
     z-index: 30;
@@ -23,7 +23,6 @@ nav {
 }
 
 nav li {
-
     width: 150px;
     height: 40px;
     display: inline-block;
@@ -31,7 +30,7 @@ nav li {
     text-align: center;
     color: #1ac056;    
     font-weight: bold;
-     z-index: 31;
+    z-index: 35;
 }
 li:hover{color: black;}
 
