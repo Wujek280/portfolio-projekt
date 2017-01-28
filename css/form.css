@@ -1,16 +1,16 @@
 form {
-    color:white;
+    color: white;
     line-height: 1.5em;
 }
 
 label {
-    color:white;
+    color: white;
 }
 
 #mailto {
-    color:#1ac056;
-    font-weight:bolder;
-    text-decoration:underline;
+    color: #1ac056;
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 input[type="email"],
@@ -23,13 +23,13 @@ input[type="text"] {
     border-radius: 2px;
     margin-bottom: 7px;
     color: white;
-    margin:5px 0;
+    margin: 5px 0;
 }
 
 input:focus[type="email"],
 input:focus[type="tel"],
 input:focus[type="text"] {
-background-color: #4e708c;
+    background-color: #4e708c;
 }
 
 input[type=submit] {
@@ -43,8 +43,8 @@ input[type=submit] {
     font-size: 1em;
     letter-spacing: 1px;
     font-family: lato;
-    float: left; 
-    margin-right:50px;
+    float: left;
+    margin-right: 50px;
 }
 
 input[type=submit]:hover {
@@ -55,16 +55,15 @@ input[type=submit]:hover {
 }
 
 #msg:focus {
-background-color: #4e708c;
-
+    background-color: #4e708c;
 }
 
 #msg {
     min-width: 304px;
     min-height: 100px;
     background-color: #2B4a64;
-    color:white;
-    margin:5px 0;
+    color: white;
+    margin: 5px 0;
     resize: none;
     border: none;
     box-sizing: border-box;
@@ -73,7 +72,3 @@ background-color: #4e708c;
 #send {
     text-transform: uppercase;
 }
-
-
-
-
