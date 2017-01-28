@@ -59,7 +59,7 @@ h2 {
     color: #000;
     text-align: center;
     font-weight: lighter;
-    font-size: 42px;
+    font-size: 64px;
 }
 
 h3 {
@@ -113,7 +113,7 @@ figure {
 .box-shadow {
     box-shadow: 0 4px 20px -2px gray;
     margin-top: -5px;
-    background-color: lightblue;
+    background-color: #e8e8ff;
 }
 
 footer {
