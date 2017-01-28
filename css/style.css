@@ -12,11 +12,16 @@ body {
     margin-right: auto;
 }
 
-.center {
+.center-outer {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+}
+
+.center-inner {
+    width: 50%;
+    margin: 0 auto; 
 }
 
 nav {

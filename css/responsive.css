@@ -29,30 +29,30 @@
 
 @media (max-width:480px) {
 
-label[for="menu-toggle"] {
-    cursor: pointer;
-    color: chartreuse;
-    transition: 0.3s height;
-}
+    label[for="menu-toggle"] {
+        cursor: pointer;
+        color: chartreuse;
+        transition: 0.3s height;
+    }
 
-#menu-toggle {
-  display: none; /* hide the checkbox */
-}
+    #menu-toggle {
+      display: none; /* hide the checkbox */
+    }
 
-#menu {
-  display: none;
-}
+    #menu {
+      display: none;
+    }
 
-ul {
-display: block;
-text-align: right;
-clear:both;
-float:initial;
-}
-    
-#menu-toggle:checked + #menu {
-  display: block;
-}
+    ul {
+    display: block;
+    text-align: right;
+    clear:both;
+    float:initial;
+    }
+
+    #menu-toggle:checked + #menu {
+      display: block;
+    }
 
 
         
