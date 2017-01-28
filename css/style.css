@@ -45,13 +45,21 @@ h1 {
     font-weight:300;
 }
 
+h3 {
+    color:#fff;
+    font-weight: lighter;
+    font-size: 1.66em;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
 
 article {
     margin: auto 120px;
     width: 85%;    
 }
 
-.centerdiv{
+.centerdiv, h2{
     
     text-shadow: 0px 0px 2px rgba(255,255,255,0.5);
 
@@ -105,7 +113,7 @@ span.right {
 
 #o-mnie,
 #moje-umiejetnosci,
-#kontaktowo {
+{
     position:relative;
     color:#303030;
     font-size:2.5em;
@@ -145,6 +153,8 @@ figure {
 #contact {
     background-color: #213b50;
     height: 300px;
+    overflow: hidden;
+
 }
 
 #kontaktowo {
@@ -168,12 +178,21 @@ figure {
     padding-right: 120px;
     padding-top: 20px;
     width: 42%;
+    overflow: inherit;
+
 }
 
 #left-container{
     float:left;
     padding-left: 120px;
+    overflow: inherit;
 
+}
+
+address {
+    color:white;
+    font-family: Lato;
+    font-style: normal;
 }
 
 .icon{

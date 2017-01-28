@@ -47,7 +47,8 @@
 p {color:white;}
 p:hover {opacity: 1}
 
-.portfolio-item-mask:hover, portfolio-item-mask-portfolio-item-mask:hover {
+.portfolio-item-mask:hover,
+portfolio-item-mask-portfolio-item-mask:hover {
     opacity: 0.9;
     transition: 0.3s;
 }
