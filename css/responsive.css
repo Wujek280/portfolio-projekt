@@ -22,18 +22,7 @@ body {background-color: #00f;}
 body {
     background-color: #303030;
     }
-    
-    nav {
-        width: 100%;
-        font-size: 16px;
-    }
-    
-    nav ,ul ,li {
-        display: block;
-        font-size: 16px;
-        clear: both;
-        border-bottom: 1px dotted green;
-    }
+
 
         
 }
