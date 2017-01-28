@@ -1,38 +1,34 @@
 <!DOCTYPE html>
 <html lang="pl"da
 
-
-
-<!--
-     bez BR 
-     div  h
-     bez inline
-     dodac klase last
--->
-
-      
-
-
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
     
-    <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/form.css">
-    
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
         
     <link href="https://fonts.googleapis.com/css?family=
     Roboto:300,400,700,700i,900" rel="stylesheet">     
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&amp;subset=latin-ext" rel="stylesheet">
+    
     </head>
 
-<body>               <!--   --NAWIGACJA-------- -->
-    <nav>
-        
-        <div style="width: 30%; float:left;"></div>        
-        <ul>
+<body>       
+   
+      <!--   nav-list -->
+      
+       <nav>
+       
+          <label for="menu-toggle"> <i style=" font-size:2em; float:right; padding:15px; color:darkgreen;" class="fa fa-bars" aria-hidden="true"></i> </label>
+
+          <input type="checkbox" id="menu-toggle" >
+            
+        <ul id="menu">
             <a href="#footer">
                 <li>kontakt</li>
             </a>
@@ -45,68 +41,62 @@
             <a href="#o-mnie">
                 <li>O mnie</li>
             </a>
+
         </ul>
         
     </nav>
     
+ <!--   img :: background.jpg -->   
     
      <img src="gfx/img/header-background.jpg" alt="yerbamateboy" width="100%">
 
-     <!--   -----CENTER TEXT--- -->
+ <!--   article :: O mnie -->   
      
     <header>
-        <h1 class="centerdiv"> 
-        Marcin J.<span class="left"> Wójcik </span><br> 
+        <h1> 
+        Marcin J.<span class="left"> Wójcik </span><br>
         <span class="right">Front-End Developer</span> 
         </h1>
     </header>
-    
-  
-<br>
-<br>            <!--   ----O MNIE CV------ -->    
-<br>  
-  
-<article>
-   
-    <div class="centerdiv" id="o-mnie">
-    O<span style="color:#1ac056; font-weight:bolder;"> mnie</span> 
-    </div>
-    <br>
      
-      <div class="box-shadow">
-        <div class="box" class="right-cv" style="float:left;">     
-        <br>
-        <img src="gfx/img/jan-nowak.jpg" alt="polishboy-programmer" width="60%" style="border: 20px white solid; border-radius:10px;float:right; ">
-        </div>
+      
+<!-- article :: O-mnie:shadow-box -->
+      
+<article class="box-shadow" class="center">
+
+        <h2 id="o-mnie">O<span class="left" > mnie</span></h2>
+
+        <figure id="o-mnie-figure" >
         
-        <div class="box" class="left-cv" style="float:right;"> 
-        <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ad recusandae dolor eveniet ducimus, totam mollitia nam saepe nostrum debitis sit placeat in nobis aperiam dolorem iure dolorum. Incidunt, vel.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nobis, maxime illum quo ipsam vero dolores culpa deleniti rem laudantium eius similique itaque numquam ratione consequuntur, blanditiis non dolor temporibus!</div>
-        
-        <div style="clear:both;"></div>
-        </div>
-   
-        
+        <img src="gfx/img/jan-nowak.jpg" alt="polishboy-programmer">
+
+            <figcaption>
+
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ad recusandae dolor eveniet ducimus, totam mollitia nam saepe nostrum debitis sit placeat in nobis aperiam dolorem iure dolorum. Incidunt, vel.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nobis, maxime illum quo ipsam vero dolores culpa deleniti rem laudantium eius similique itaque numquam ratione consequuntur, blanditiis non dolor temporibus!    
+
+            </figcaption>
+
+        </figure>    
+
 </article>
-<br>
-<br>
-<br>            <!--   -----UMIEJETNOSCI----- -->
-<br>
-<article>
+
+
+<!--   section :: Umiejetnosci  -->
+
+<section>
          
-    <h2 class="centerdiv" id="moje-umiejetnosci">
+    <h2 id="moje-umiejetnosci">
     Moje<span class="bolding"> umiejętności</span> 
     </h2>
        
-    <div style=" text-align: center; margin: 30px 0 30px 0; ">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus alias quae optio eligendi, molestiae unde facilis nobis laboriosam at sapiente, voluptatibus vitae atque harum adipisci, dignissimos a, vel eius voluptatem.</div>
+        <article>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus alias quae optio eligendi, molestiae unde facilis nobis laboriosam at sapiente, voluptatibus vitae atque harum adipisci, dignissimos a, vel eius voluptatem
+        </article>
     
-</article>
-  
-  <!-- --------photoboxy----------------------- -->
-   
-   <div id="skills" class="box" style="width:85%; align-content: center; padding:0; height: 200px; box-shadow:none;">
-   
-   <div class="srodkujacy" style="margin:auto; width: 85%;">
+  <!--  Fiugures -->
+    
+    <div class="center">        
+     
        <figure>
           <img src="gfx/icons/css3.png">
           <figcaption style="text-align:center;">
@@ -115,13 +105,13 @@
        </figure>
 
         <figure>
-          <img src="gfx/icons/html5.png">
+          <img src="gfx/icons/html5.png">    
           <figcaption style="text-align:center;">
               HTML5
           </figcaption>
        </figure>
 
-           <figure>
+        <figure>
           <img src="gfx/icons/jquery.png">
           <figcaption style="text-align:center;">
               jQuery
@@ -134,24 +124,22 @@
               JavaScript
           </figcaption>
        </figure>
-     
-      <div style="clear:both"></div>
+           
     </div>
-    </div>
-   <br>
-   <br>
-   <br>
-     <!-- ---------portfolio----------------------- -->
+    
+</section>
 
-    <h2 class="centerdiv" id="moje-umiejetnosci">
+    
+     <!-- article Portfolio, h2-->
+     
+<section>
+    
+    <h2 id="portfolio">
     Moje<span class="bolding"> portfolio </span> 
     </h2>
     
-    
-    <article>
-    
-    <div id="portfolio">
-       
+      <div class="center">
+        
         <div class="portfolio-item" id="photo1">
           <div class="portfolio-item-mask">
              <div class="portfolio-item-mask-content">
@@ -184,33 +172,34 @@
           </div>           
         </div>
         
-    </div>
-    </article>
+      </div>
+        
+ 
+</section>
 
-  <!-- ---------FOOOOTER   ------------------- -->
+  <!-- Section :: contact -->
   
-  <section id="contact" >
-      
+  <section id="contact" >      
     
-        <div id="left-container" >
-
-            <h2 id="kontaktowo">
-            Marcin J. <span class="left"> Wójcik  </span>
-            </h2>
-
-            <br>
-            <br>
+        <div class="column1-2" >
+           
+            <h3>Marcin J. <span class="left"> Wójcik</span></h3>
+            
+            <address>
             ul. Tokarskiego 1<br>
-            30-366 Kraków<br>
+            30-366 Kraków
+            </address>
+            
             <br>
             tel: 790 4321 42
             <br>
+            
             e-mail : <a href="mailto:mj.wojcik94@gmail.com">
             <span id="mailto">mj.wojcik94@gmail.com</span>
             </a>
             
             <br>
-
+               
                 <div class="icon" id="icon1" >
                 <i class="fa fa-facebook fa-3x  fa-inverse" aria-hidden="true"></i>
                 </div>
@@ -228,10 +217,12 @@
                 </div>
                 
                 <div style="clear:both"></div>
+                
+                </div>
 
         </div>
     
-        <div id="right-container">
+        <div class="column1-2">
 
             <form action="https://formspree.io/wujek5151@gmail.com" id="myform" method="POST">
 
@@ -239,24 +230,24 @@
                 
                 <input id="email" type="email" placeholder="   type@yourmail.com" />
                
-                <textarea id="msg" name="message" form="myform" style="color:white"> 
+                <textarea id="msg" name="message" form="myform" placeholder="   Napisz mi coś ..." > 
                 </textarea>
+                <br>
 
-                <input type="submit" value="SEND">
+                <input id="send" type="submit" value="wyślij">
 
             </form>
             
         </div>
-    
+        
+        <div style="clear:both"></div>
+                         
+    <!-- Footer -->
+     
   </section>
-    
- 
-    <footer>
-      Marcin J. Wójcik &copy;   
-    </footer>
-  
-  
- 
+  <footer id="footer">Marcin J. Wójcik &copy;</footer>
+   
+
     
     
 </body>
