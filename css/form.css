@@ -60,17 +60,20 @@ background-color: #4e708c;
 }
 
 #msg {
-    min-width: 300px;
+    min-width: 304px;
     min-height: 100px;
     background-color: #2B4a64;
     color:white;
     margin:5px 0;
-
-    
+    resize: none;
+    border: none;
+    box-sizing: border-box;
 }
 
 #send {
     text-transform: uppercase;
 }
+
+
 
 

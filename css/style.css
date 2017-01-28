@@ -21,9 +21,9 @@ body {
 
 nav {
     min-height: 40px;
-    width: 1360px;
+    width: 100%;
     background-color: #f9fcfe;
-    position: fixed;
+    position: fixed;    
     z-index: 30;
     border-bottom: 1px solid #1ac056;
 }
@@ -112,7 +112,6 @@ figure {
 
 .box-shadow {
     box-shadow: 0 4px 20px -2px gray;
-    rgba(0, 0, 0, 0.9);
     margin-top: -5px;
     background-color: lightblue;
 }
@@ -171,6 +170,7 @@ address {
     color: white;
     text-align: center;
     padding-top: 2px;
+
 }
 
 i:hover {

@@ -1,27 +1,67 @@
+
+label[for="menu-toggle"]{color:white;}
+
 @media (max-width:1200px) {
-body {background-color: #f00;}
-     
+    
+body {background-color: #ff0;}
+    
+.portfolio-item:nth-child(3n) {width: 1000px;}
+.portfolio-item-mask > #photo3 {width: 1000px;}
+      
 }
 
 @media(max-width:1200px) {
-body {background-color: #f00;}
-     
+body {color: #f00;}
+   
 }
 
 @media (max-width:786px) {
 body {background-color: #0f0;}
-
+    
+    .column1-2 {
+        width: 95%;
+        text-align: center;
+        margin: auto;
+    }
+    h3 {text-align: center;}
+    
 }
 
 @media (max-width:680px) {
 body {background-color: #00f;}
 
+    
 }
 
 @media (max-width:480px) {
-body {
-    background-color: #303030;
-    }
+body {background-color: #303030;}
+    
+
+
+label[for="menu-toggle"] {
+    cursor: pointer;
+    color: chartreuse;
+    transition: 0.3s height;
+}
+
+#menu-toggle {
+  display: none; /* hide the checkbox */
+}
+
+#menu {
+  display: none;
+}
+
+ul {
+display: block;
+text-align: right;
+clear:both;
+float:initial;
+}
+    
+#menu-toggle:checked + #menu {
+  display: block;
+}
 
 
         
