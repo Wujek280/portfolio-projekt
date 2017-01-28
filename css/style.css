@@ -81,7 +81,9 @@ article {
 
 section {
     background-color: #f9fcfe;
-    font-size: 3em;    
+    font-size: 3em;   
+    margin: auto 120px;
+    width: 85%;  
 }
 
 article {
