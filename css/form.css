@@ -26,11 +26,6 @@ input[type="text"] {
     margin:5px 0;
 }
 
-textarea {
-    margin:5px 0;
-}
-
-
 input:focus[type="email"],
 input:focus[type="tel"],
 input:focus[type="text"] {
@@ -52,6 +47,13 @@ input[type=submit] {
     margin-right:50px;
 }
 
+input[type=submit]:hover {
+    background-color: #fff;
+    color: #0f0;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
 #msg:focus {
 background-color: #4e708c;
 
@@ -61,4 +63,14 @@ background-color: #4e708c;
     min-width: 300px;
     min-height: 100px;
     background-color: #2B4a64;
+    color:white;
+    margin:5px 0;
+
+    
 }
+
+#send {
+    text-transform: uppercase;
+}
+
+
