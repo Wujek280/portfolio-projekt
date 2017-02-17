@@ -1,5 +1,12 @@
 'use strict';
 
+/*
+   Źródło : 
+   
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll
+
+*/
+
 $(document).ready(function(){
    
   $("a").on('click', function(event) {
