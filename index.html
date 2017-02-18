@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="pl"da
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
     
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -21,13 +22,17 @@
    
       <!--   nav-list -->
       
-       <nav>
+       <nav id="bar">
        
-          <label for="menu-toggle"> <i style=" font-size:2em; float:right; padding:15px; color:darkgreen;" class="fa fa-bars" aria-hidden="true"></i> </label>
 
-          <input type="checkbox" id="menu-toggle" >
             
         <ul id="menu">
+        
+            <label for="menu-toggle"> 
+            <i class="fa fa-bars fa-2x" aria-hidden="true"></i> 
+            </label>
+            <input type="checkbox" id="menu-toggle">
+           
             <a href="#footer">
                 <li>kontakt</li>
             </a>
@@ -38,7 +43,7 @@
                 <li> umiejętnosci</li>
             </a>
             <a href="#o-mnie">
-                <li>O mnie</li>
+            <li>O mnie</li>
             </a>
 
         </ul>
@@ -51,7 +56,7 @@
     <div class="center-outer"> 
         <div class="center-inner">
 
-            <header> <!-- arcin J. Wójcik / Front End-Dev-->
+            <header> <!-- Marcin J. Wójcik / Front End-Dev-->
 
                 <h1> 
                 Marcin J.<span class="left"> Wójcik </span><br>
@@ -220,9 +225,8 @@
                 
                 <div style="clear:both"></div>
                 
-                </div>
-
         </div>
+
     
         <div class="column1-2">
 
@@ -252,7 +256,9 @@
     <!--  Scripts-->
   
   <script src="js/jquery-3.1.1.js"></script>
-  <script src="js/smoothScrool.js"></script>
+  <script src="js/w3cSmoothScrool.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/main.js"></script>
    
 
 </body>

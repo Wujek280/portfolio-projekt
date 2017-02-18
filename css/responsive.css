@@ -46,6 +46,6 @@
         float: initial;
     }
     #menu-toggle:checked + #menu {
-        display: block;
+        display: flex;
     }
 }
