@@ -1,0 +1,35 @@
+.round {border-radius: 50%;}
+
+.service {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: 20px;
+}
+
+.icon {
+  background-color: deepskyblue;
+  border: none;
+  text-align: center;
+  line-height:105px;
+  font-size: 60px;
+  color: white;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 40px auto;
+}
+
+
+figcaption.opis > h4 {
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: capitalize;
+}
+
+figcaption.opis > h5 {
+  line-height: 16px;
+  font-weight: lighter;
+   font-style: normal;
+}
+

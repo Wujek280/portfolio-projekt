@@ -1,49 +1,73 @@
-label[for=menu-toggle] {
-   float: right;
+#bgc {
+   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://github.com/Wujek280/BTrap-Projekt-2/blob/master/gfx/header/pictures_on_the_wall.jpg?raw=true');
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100vw;
+   height: 100vh;
 }
 
 
-/*------------ON TOP OF PAGE------------*/
-
-nav {
-   padding-top: 20px;
-   min-height: 40px;
-   width: 100%;
-   background-color: transparent;
-   z-index: 30;
-   border-bottom: none;
-   position: fixed;
-   transition: 0.3s background-color;
+.container-fluid.nav-bar {
+	background-color: transparent;
+    position: fixed;
 }
+/*-----------NAV--------------*/
 
-nav li {
-   width: 150px;
-   height: 40px;
-   display: inline-block;
-   float: right;
-   text-align: center;
+ul>li>a {
+   color: #f7f7f7;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   font-family: Roboto;
    font-weight: bold;
-   z-index: 35;
-   color: white;
+   background-color: transparent;
 }
 
-li:hover {
-   color: #1ac056;
+/*-------HEADER TITLE---------*/
+
+#bgc>.title {
+   position: absolute;
+   margin-top: 50vh;
+   transform: translateX(-50%) translateY(-50%);
+   margin-left: 50vw;
+   text-align: center;
+   font-size: 48px;
+   line-height: 20px;
 }
 
-
-/*-------------CLASS REST---------------*/
-
-nav.scrool {
-   background-color: ivory;
-   border-bottom: 1px solid #1ac056;
-   transition: 0.3s background-color;
+.header{
+   color: #f7f7f7;
+   letter-spacing: 1px;
+   margin-top: 40px;
+   margin-bottom: 20px;
 }
 
-nav.scrool li {
-   color: #1ac056;
+h3{
+   margin-top: 40px;
+   margin-bottom: 10px;
 }
 
-nav.scrool li:hover {
-   color: black;
+h2.header {
+   font-style: bold;
+   text-transform: uppercase;
+   font-size: 48px;
+}
+
+h3.header {
+   font-family: Droid serif;
+   font-style: italic;
+   text-transform: none;
+   font-size: 32px;
+}
+
+h3.in-navbar {
+   color: #f7f7f7;
+   font-family: Serif;
+   text-transform:capitalize;
+   font-style: italic;
+   font-size: 32px;
+}
+
+.red {
+   background-color: black;
+   border:1px solid red;
 }

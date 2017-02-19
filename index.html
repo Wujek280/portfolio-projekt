@@ -2,265 +2,357 @@
 <html lang="pl">
 
 <head>
+   
+	<title>Boostrap Grid</title>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+<!--    html css-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">    
+	<link rel="stylesheet" href="css/header.css">    
+	<link rel="stylesheet" href="css/headers-body.css"> 
+<!--	sections css   -->
+	<link rel="stylesheet" href="css/services.css">    
+	<link rel="stylesheet" href="css/portfolio.css">  
+	<link rel="stylesheet" href="css/our-team.css">  
+	<link rel="stylesheet" href="css/contact.css">    
+	<link rel="stylesheet" href="css/footer.css">    
+	<link rel="stylesheet" href="css/social-icons.css">    
+<!--	boostrap css  -->
+	<link rel="stylesheet" href="css/boostrap-overwrite.css">    
+<!--    Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Montserrat:700|Roboto+Slab&amp;subset=latin-ext" rel="stylesheet">
+<!--    Font Awesome-->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"> 
     
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/form.css">
-    <link rel="stylesheet" href="css/portfolio.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-        
-    <link href="https://fonts.googleapis.com/css?family=
-    Roboto:300,400,700,700i,900" rel="stylesheet">     
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&amp;subset=latin-ext" rel="stylesheet">
-    
-    </head>
+</head>
 
-<body>       
-   
-      <!--   nav-list -->
-      
-       <nav id="bar">
-       
-<!--
-       <label for="menu-toggle"> <i class="fa fa-bars fa-2x" aria-hidden="true"></i> </label>
-<input type="checkbox" id="menu-toggle">
-        <ul id="menu">
--->       
-           
-            <a href="#footer">
-                <li>kontakt</li>
-            </a>
-            <a href="#portfolio">
-                <li> portfolio</li>
-            </a>
-            <a href="#moje-umiejetnosci">
-                <li> umiejętnosci</li>
-            </a>
-            <a href="#o-mnie">
-            <li>O mnie</li>
-            </a>
+<body>
 
-        </ul>
-        
+<!--NAV-->
+
+   <!--WKLEJKA******************************-->
+   <nav class="navbar navbar-default navbar-fixed-top">
+     <div class="container-fluid" >
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed text-right" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+           <span class="sr-only"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="#"><h3 class="in-navbar">boostrap project</h3></a>
+       </div>
+
+       <!-- Collect the nav links, forms, and other content for toggling -->
+       <div class="collapse navbar-collapse" id="menu">
+         <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">services</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+         </ul>
+       </div><!-- /.navbar-collapse -->
+     </div><!-- /.container-fluid -->
+   </nav>
+
+   <!--WKLEJKA******************************-->
+
+
+<!--HEADER-->
  
+<div class="row center">
+      <header id="bgc" class="column col-lg-12 col-md-12 col-xs-12">   
+         <div class="title">
+            <h3 class="header">Num libero temporte</h3>
+            <h2 class="header">Lorem ipsum dolor</h2>
+            <input type="button" value="view more">
+         </div>
+      </header>
+</div>
+
+<!--SECTION #1 SERVICES-->
+  
+
+<section class="container" id="services">
+  
+   <!--  TITLE SERVICES-->
+   <div class="row center">
+      <h3>services</h3>
+      <h5>Praesentium voluptatum delentini atque corrupti</h5>
+   </div>
+   <div class="row">
+          <!--   SERVICES_i-->
+      <div class="services column col-lg-4 col-md-4 col-xs-12">
+         
+          <figure class="service">
            
-        
-    </nav>
-    
- <!--   img :: background.jpg -->
-  <img src="gfx/img/header-background.jpg" alt="yerbamateboy" width="100%">
-   
-    <div class="center-outer"> 
-        <div class="center-inner">
-
-            <header> <!-- Marcin J. Wójcik / Front End-Dev-->
-
-                <h1> 
-                Marcin J.<span class="left"> Wójcik </span><br>
-                <span class="right">Front-End Developer</span> 
-                </h1>
-            </header>
+            <div class="icon round">
+               <i class="fa fa-briefcase" aria-hidden="true"></i>
+            </div>
+            <hr />
+            <figcaption class="opis">
+            <h4>web developer</h4>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit repellat laudantium hic ab autem blanditiis doloribus atque, aliquid. </h5>
             
-        </div>
-    </div>
-      
-<!-- article :: O-mnie:shadow-box -->
-      
-<article class="box-shadow" class="center-outer">
-
-        <h2 id="o-mnie">O<span class="left" > mnie</span></h2>
-
-        <figure id="o-mnie-figure" >
-        
-        <img src="gfx/img/jan-nowak.jpg" alt="polishboy-programmer">
-
-            <figcaption>
-
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ad recusandae dolor eveniet ducimus, totam mollitia nam saepe nostrum debitis sit placeat in nobis aperiam dolorem iure dolorum. Incidunt, vel.Lorem ipsum dolor sit amet, consectetur adipisicing elit!    
-
             </figcaption>
 
-        </figure>    
-
-</article>
-
-
-<!--   section :: Umiejetnosci  -->
-
-<section>
+         </figure>
          
-    <h2 id="moje-umiejetnosci">
-    Moje<span class="bolding"> umiejętności</span> 
-    </h2>
-       
-        <article>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus alias quae optio eligendi, molestiae unde facilis nobis laboriosam at sapiente, voluptatibus vitae atque harum adipisci, dignissimos a, vel eius voluptatem
-        </article>
-    
-  <!--  Fiugures -->
-    
-    <div class="center-outer">        
-     
-       <figure>
-          <img src="gfx/icons/css3.png">
-          <figcaption style="text-align:center;">
-              CSS3
-          </figcaption>
-       </figure>
-
-        <figure>
-          <img src="gfx/icons/html5.png">    
-          <figcaption style="text-align:center;">
-              HTML5
-          </figcaption>
-       </figure>
-
-        <figure>
-          <img src="gfx/icons/jquery.png">
-          <figcaption style="text-align:center;">
-              jQuery
-          </figcaption>
-       </figure>
-
-        <figure>
-          <img src="gfx/icons/js.png">
-          <figcaption >
-              JavaScript
-          </figcaption>
-       </figure>
-           
-    </div>
-    
-</section>
-
-    
-     <!-- article Portfolio, h2-->
-     
-<section>
-    
-    <h2 id="portfolio">
-    Moje<span class="bolding"> portfolio </span> 
-    </h2>
-    
-      <div class="center-outer">
-        
-        <div class="portfolio-item" id="photo1">
-          <div class="portfolio-item-mask">
-             <div class="portfolio-item-mask-content">
-                 <p>Lorem </p> 
-                 <p>dolor sit amet, consectetur adipisicing elit. Alias quos amet sapiente cumque tempore, ex unde veritatis, dolores sequi totam quod voluptatem magnam cum labore blanditiis ratione laudantium vitae eligendi?</p><br>
-                 <i class="fa fa-link fa-2x  fa-inverse " aria-hidden="true"></i>
-             </div>              
-          </div>           
-        </div>
-        
-        <div class="portfolio-item" id="photo2">
-          <div class="portfolio-item-mask">
-             <div class="portfolio-item-mask-content">
-                                 <p>Lorem </p> 
-                 <p>dolor sit amet, consectetur adipisicing elit. Alias quos amet sapiente cumque tempore, ex unde veritatis, dolores sequi totam quod voluptatem magnam cum labore blanditiis ratione laudantium vitae eligendi?</p><br>
-                 <i class="fa fa-link fa-2x  fa-inverse " aria-hidden="true"></i>
-                 
-             </div>                 
-          </div>           
-        </div>
-        
-        <div class="portfolio-item" id="photo3">
-         <div class="portfolio-item-mask">
-             <div class="portfolio-item-mask-content">
-                                 <p>Lorem </p> 
-                 <p>dolor sit amet, consectetur adipisicing elit. Alias quos amet sapiente cumque tempore, ex unde veritatis, dolores sequi totam quod voluptatem magnam cum labore blanditiis ratione laudantium vitae eligendi?</p><br>
-                 <i class="fa fa-link fa-2x  fa-inverse " aria-hidden="true"></i>
-                 
-             </div>                 
-          </div>           
-        </div>
-        
       </div>
-        
- 
-</section>
-
-  <!-- Section :: contact -->
-  
-  <section id="contact" >      
-    
-        <div class="column1-2" >
-           
-            <h3>Marcin J. <span class="left"> Wójcik</span></h3>
+           <!--   SERVICES_i-->
+      <div class="service column col-lg-4 col-md-4 col-xs-12">
+         <div class="icon round">
+              <i class="fa fa-cloud-download" aria-hidden="true"></i>
+            </div>
+            <hr />
+            <figcaption class="opis">
+            <h4>e-commerce</h4>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h5>
             
-            <address>
-            ul. Tokarskiego 1<br>
-            30-366 Kraków
-            </address>
+            </figcaption>
+
+      </div>
+           <!--   SERVICES_i-->
+      <div class="service column col-lg-4 col-md-4 col-xs-12">
+           <div class="icon round">
+               <i class="fa fa-comment" aria-hidden="true"></i>
+            </div>
+            <hr />
             
-            <br>
-            tel: 790 4321 42
-            <br>
+            <figcaption class="opis text-center">
+            <h4>web design</h4>
+            <h5> Excepturi aperiam quos magni voluptatibus, saepe eius, velit ab beatae molestias tenetur.</h5>
             
-            e-mail : <a href="mailto:mj.wojcik94@gmail.com">
-            <span id="mailto">mj.wojcik94@gmail.com</span>
-            </a>
-            
-            <br>
-               
-                <div class="icon" id="icon1" >
-                <i class="fa fa-facebook fa-3x  fa-inverse" aria-hidden="true"></i>
-                </div>
+            </figcaption>
 
-                <div class="icon" id="icon2">
-                <i class="fa fa-google-plus-official fa-3x  fa-inverse" aria-hidden="true"></i>
-                </div>
-
-                <div class="icon" id="icon3">
-                <i class="fa fa-linkedin fa-3x  fa-inverse" aria-hidden="true"></i>
-                </div>
-
-                <div class="icon" id="icon4">
-                <i class="fa fa-telegram fa-3x  fa-inverse" aria-hidden="true"></i>
-                </div>
-                
-                <div style="clear:both"></div>
-                
-        </div>
-
-    
-        <div class="column1-2">
-
-            <form action="https://formspree.io/wujek5151@gmail.com" id="myform" method="POST">
-
-                <input id="imie" type="text" placeholder="   John" />
-                
-                <input id="email" type="email" placeholder="   type@yourmail.com" />
-               
-                <textarea id="msg" name="message" form="myform" placeholder="   Napisz mi coś ..." > 
-                </textarea>
-                <br>
-
-                <input id="send" type="submit" value="wyślij">
-
-            </form>
-            
-        </div>
-        
-        <div style="clear:both"></div>
-                         
-    <!-- Footer -->
-     
-  </section>
-  <footer id="footer">Marcin J. Wójcik &copy;</footer>
-  
-    <!--  Scripts-->
-  
-  <script src="js/jquery-3.1.1.js"></script>
-  <script src="js/w3cSmoothScrool.js"></script>
-  <script src="js/header.js"></script>
-  <script src="js/main.js"></script>
+      </div>
+   </div>
    
+ </section> 
+ 
+<!--SECTION #3 PORTFOLIO-->
+    
 
+    <section class="container" id="portfolio">
+         
+    <div class="row" >
+      <h3>portfolio</h3>
+      <h5>Praesentium dupa dupa voluptatum delentini atque corrupti</h5>
+    </div>
+      
+      
+       <div class="row">
+         
+         <div class="column-portfolio col-lg-4 col-md-6 col-xs-12">
+            <figure id="portfolio-pic-1" class="portfolio">
+               <div class="portfolio-mask"><i class="fa fa-plus fa-4x fa-inverse"></i></div>
+            </figure>
+            <figcaption class="portfolio">
+               <h2>Earum Rerum Hic</h2>
+               <h5>Temporibus Autem Quibusdam</h5>
+            </figcaption>
+         </div>
+         <div class="column-portfolio col-lg-4 col-md-6 col-xs-12">
+            <figure id="portfolio-pic-2" class="portfolio">
+               <div class="portfolio-mask"><i class="fa fa-plus fa-4x fa-inverse"></i></div>
+            </figure>
+            <figcaption class="portfolio">
+               <h2>Earum Rerum Hic</h2>
+               <h5>Temporibus Autem Quibusdam</h5>
+            </figcaption>
+         </div>
+         <div class="column-portfolio col-lg-4 col-md-6 col-xs-12">
+            <figure id="portfolio-pic-3" class="portfolio">
+               <div class="portfolio-mask"><i class="fa fa-plus fa-4x fa-inverse"></i></div>
+            </figure>
+            <figcaption class="portfolio">
+               <h2>Earum Rerum Hic</h2>
+               <h5>Temporibus Autem Quibusdam</h5>
+            </figcaption>
+         </div>
+         <div class="column-portfolio col-lg-4 col-md-6 col-xs-12">
+            <figure id="portfolio-pic-4" class="portfolio">
+               <div class="portfolio-mask"><i class="fa fa-plus fa-4x fa-inverse"></i></div>
+            </figure>
+            <figcaption class="portfolio">
+               <h2>Earum Rerum Hic</h2>
+               <h5>Temporibus Autem Quibusdam</h5>
+            </figcaption>
+         </div>
+         <div class="column-portfolio col-lg-4 col-md-6 col-xs-12">
+            <figure id="portfolio-pic-5" class="portfolio">
+               <div class="portfolio-mask"><i class="fa fa-plus fa-4x fa-inverse"></i></div>
+            </figure>
+            <figcaption class="portfolio">
+               <h2>Earum Rerum Hic</h2>
+               <h5>Temporibus Autem Quibusdam</h5>
+            </figcaption>
+         </div>
+         <div class="column-portfolio col-lg-4 col-md-6 col-xs-12">
+            <figure id="portfolio-pic-6" class="portfolio">
+               <div class="portfolio-mask"><i class="fa fa-plus fa-4x fa-inverse"></i></div>
+            </figure>
+            <figcaption class="portfolio">
+               <h2>Earum Rerum Hic</h2>
+               <h5>Temporibus Autem Quibusdam</h5>
+            </figcaption>
+         </div>
+          
+       </div> <!--END OF ROW -->
+    </section>  
+  
+<!--  OUR TEAM  -->
+ 
+ <section class="container" id="team">
+  
+   <div class="row center">
+      <h3>meet our team</h3>
+      <h5>Praesentium voluptatum delentini atque corrupti</h5>
+   </div>
+   <div class="row">
+         
+               <!--   MATE 1  -->
+          
+      <div class="services column col-lg-4 col-md-4 col-xs-12">
+          <figure class="mate">
+            <div class="team-photo round" id="photo-1"></div>            
+            <hr />
+            
+            <figcaption class="opis">
+               <h4>web developer</h4>
+               <h5>Eric Clapton</h5> 
+                                                    
+                <a href=""><i class="fa round fa-facebook fa-inverse fa-2x"></i></a>
+                <a href=""><i class="fa round fa-twitter fa-inverse fa-2x"></i></a>
+                <a href=""><i class="fa round fa-linkedin fa-inverse fa-2x"></i></a> 
+                        
+            </figcaption>
+          </figure>
+      </div>
+                <!--   MATE 2  -->
+
+      <div class="services column col-lg-4 col-md-4 col-xs-12">
+          <figure class="mate">
+            <div class="team-photo round max " id="photo-2"></div>            
+            <hr />
+            
+            <figcaption class="opis">
+               <h4>CEO and Microelectronic Expert</h4>
+               <h5>Wojciech Gicala</h5> 
+                       
+                <a href=""><i class="fa round fa-facebook fa-inverse fa-2x"></i></a>
+                <a href=""><i class="fa round fa-twitter fa-inverse fa-2x"></i></a>
+                <a href=""><i class="fa round fa-linkedin fa-inverse fa-2x"></i></a> 
+                          
+            </figcaption>
+          </figure>
+      </div>
+                <!--   MATE 3  -->
+
+      <div class="services column col-lg-4 col-md-4 col-xs-12">
+          <figure class="mate">
+            <div class="team-photo round" id="photo-3"></div>            
+            <hr />
+            
+            <figcaption class="opis">
+               <h4>software into hardware specialist</h4>
+               <h5>Darianna</h5>
+                
+                <a href=""><i class="fa round fa-facebook fa-inverse fa-2x"></i></a>
+                <a href=""><i class="fa round fa-twitter fa-inverse fa-2x"></i></a>
+                <a href=""><i class="fa round fa-linkedin fa-inverse fa-2x"></i></a>          
+
+                             
+            </figcaption>
+          </figure>
+      </div>
+      
+   
+ </section> 
+ 
+<!-- SECTION CONTACT-->
+ 
+ <section class="container" id="contact">   
+   
+       <div class="row header">
+         
+         <h2 class="header">contact us</h2>
+         <h5 class="header" >send nudes in attachment</h5>
+          
+       </div>
+       
+       <form action="https://formspree.io/wujek5151@gmail.com" id="myform" method="POST">
+       
+           <div class="row ">
+
+             <!-- LEFT -->
+             <div class="column fixed-height-for-contact col-lg-6 col-md-6 col-sm-12">
+                  <input id="imie" type="text" placeholder="   John" />
+                  <input id="email" type="email" placeholder="   type@yourmail.com" />
+                  <input id="phone" type="phone" placeholder="   +44 960 2255 108" />
+
+             </div>
+
+             <!-- RIGHT -->
+             <div class="column fixed-height-for-contact col-lg-6 col-md-6 col-sm-12">
+                  <textarea id="msg" name="message" form="myform" placeholder=" We're delighted to recieve message from you..." ></textarea>
+             </div>
+
+          </div>
+
+             <!-- BOTTOM SEND BUTTON -->
+          <div class="row">
+                <input id="send" type="submit" value="send message">
+          </div>
+       
+      </form>
+      
+ </section>
+<!-- FUUUTER -->
+      
+      <footer class="container">
+        
+         <div class="row">
+           
+           <!-- copyright -->
+            <h5 class="column col-lg-4 col-md-4 col-xs-12">
+               <br>Copyright &copy; your Web.
+            </h5>
+           
+           <!-- icons -->
+            <h6 class="column col-lg-4 col-md-4 col-xs-12">
+               
+                <a href=""><i class="fa round fa-facebook fa-inverse fa-2x"></i></a>
+                <a href=""><i class="fa round fa-twitter fa-inverse fa-2x"></i></a>
+                <a href=""><i class="fa round fa-linkedin fa-inverse fa-2x"></i></a> 
+                
+            </h6>
+            
+           <!-- terms of use -->
+            <h6 class="column col-lg-4 col-md-4 col-xs-12">
+              <ul>
+                 <a href=""><li>Terms of Use</li></a>
+                 <a href=""><li>Privacy Policy</li></a>
+              </ul>
+            </h6>
+         </div>
+         
+      </footer>
+       
+ 
+ 
+ 
+<!--
+
+    <script src="js/jquery-3.1.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/"></script>
+		
+-->
+
+	
 </body>
-
 </html>
+
+<!--(div.column-portfolio.col-lg-4.col-md-6.col-xs-12>(figure#portfolio-pic-$.portfolio>div.portfolio-mask>i.fa.fa-plus.fa-4x.fa-inverse)+(figcaption.portfolio>(h2{Earum Rerum Hic})+(h5{Temporibus Autem Quibusdam})))*6-->
+

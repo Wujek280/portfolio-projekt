@@ -1,62 +1,77 @@
-.portfolio-item {
-    font-size: 0;
-    height: 380px;
-    width: 500px;
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    background-repeat: no-repeat;
-    display: inline-block;
+#portfolio {
+   background-color: #f7f7f7;
+   width: 100%;
+   margin: 40px 0;
+}
+.column-portfolio {
+   text-align: center;
+}
+.portfolio-mask>i{margin-top:65px;}
+.portfolio>h2 {font-size: 24px;}
+.portfolio>h3 {margin-top:10px;}
+.portfolio>h4 {margin-top:10px;}
+#portfolio>div>h5 { margin-bottom: 50px;}
+
+figcaption.portfolio {
+   height: 150px;
+   margin: 0;
+   margin-top: -11px;
+   margin-bottom: 0px;
+   padding: 5px;
+   position: relative;
+   box-sizing: border-box;
+   background-color: #fff;
 }
 
-.portfolio-item-mask {
-    position: absolute;
-    background-color: rgba(42, 61, 79, 0.8);
-    width: 500px;
-    height: 380px;
-    opacity: 0;
-    z-index: 5;
-    font-size: initial;
-    color: white;
+figure.portfolio {
+   margin: 0;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 300px;
+   width: auto;
 }
 
-.portfolio-item-mask-content {
-    position: absolute;
-    border: 2px white solid;
-    width: 90%;
-    height: 90%;
-    transform: translateX(-50%) translateY(-50%);
-    top: 50%;
-    left: 50%;
-    z-index: 10;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 10px;
-    padding-top: 60px;
+.portfolio-mask {
+   text-align: center;
+   position: relative;
+   padding-top: 50px;
+   background-color: rgba(125,200,200,0.4);
+   opacity: 0;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   transition: 0.3s ;
 }
 
-p {
-    color: white;
+.portfolio-mask:hover {
+   opacity: 1.0;
+   transition: 0.3s;
+   cursor: pointer;
 }
 
-p:hover {
-    opacity: 1
+
+/*------links---------*/
+
+#portfolio-pic-1 {
+   background-image: url("https://github.com/Wujek280/BTrap-Projekt-2/blob/master/gfx/portfolio/min/box_of_cookies-min.jpg?raw=true");
 }
 
-.portfolio-item-mask:hover,
-portfolio-item-mask-portfolio-item-mask:hover {
-    opacity: 0.9;
-    transition: 0.3s;
+#portfolio-pic-2 {
+   background-image: url("https://github.com/Wujek280/BTrap-Projekt-2/blob/master/gfx/portfolio/min/chaotic_paint-min.jpg?raw=true")
 }
 
-#photo1 {
-    background-image: url("../gfx/img/portfolio1.jpg");
+#portfolio-pic-3 {
+   background-image: url("https://github.com/Wujek280/BTrap-Projekt-2/blob/master/gfx/portfolio/min/chestnut_on_bracket-min.jpg?raw=true")
 }
 
-#photo2 {
-    background-image: url("../gfx/img/portfolio2.jpg");
+#portfolio-pic-4 {
+   background-image: url("https://github.com/Wujek280/BTrap-Projekt-2/blob/master/gfx/portfolio/min/child_with_blue_paint-min.jpg?raw=true")
 }
 
-#photo3 {
-    background-image: url("../gfx/img/portfolio3.jpg");
+#portfolio-pic-5 {
+   background-image: url("https://github.com/Wujek280/BTrap-Projekt-2/blob/master/gfx/portfolio/min/house_with_blue_doors-min.jpg?raw=true")
+}
+
+#portfolio-pic-6 {
+   background-image: url("https://github.com/Wujek280/BTrap-Projekt-2/blob/master/gfx/portfolio/min/typing_on_laptop-min.jpg?raw=true")
 }
